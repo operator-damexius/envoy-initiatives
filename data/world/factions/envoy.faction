@@ -1,0 +1,276 @@
+{
+	id:"envoy",
+	"color":[0, 33, 71, 255],
+	"baseUIColor":[0, 71, 143, 255],
+    "secondaryUIColor":[0, 100, 222, 255],
+    "secondarySegments":4,
+	"displayName":"Envoy",
+	"displayNameWithArticle":"the Envoy",
+	"displayNameLong":"Envoy Initiatives",
+	"displayNameLongWithArticle":"the Envoy Initiatives",
+	"entityNamePrefix":"The Envoy",
+	"personNamePrefix":"The Envoy",
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"is",
+	"logo":"graphics/factions/en_flag.png",
+	"crest":"graphics/factions/en_crest.png",
+	"shipNamePrefix":"EXS",
+	"description":"A national independent faction rising up, for the better future of the domain.",
+	"motto":"For the better future of the domain.",
+	"factionTags":[
+		"envoy"
+	],
+	"reputation":{
+		"friendly":0,
+		"neutral":0,
+		"hostile":0
+	},
+		"shipNameSources":{
+		"BRITISH_NAVY":4
+	},
+	"names":{
+		"modern":4
+	},
+	"knownShips":{
+		"tags":["envoy_bp"],
+		"hulls":[]
+	},
+	"priorityShips":{
+		"tags":["envoy_bp"],
+		"hulls":[]
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "independent", "envoy_bp"],
+		"fighters":[
+			"xyphos_wing",
+			"thunder_wing",
+			"claw_wing",
+			"hoplon_wing",
+			"trident_wing",
+			"longbow_wing"
+		]
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent", "envoy_bp"],
+		"weapons":[
+
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"gauss",
+			"mjolnir",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+			"tachyonlance",
+
+			"minipulser",
+			"shockrepeater",
+			"riftlance",
+			"riftbeam",
+			"cryoflux",
+			"cryoblaster",
+			"disintegrator",
+			"riftcascade",
+			"amsrm",
+			"resonatormrm",
+			"rifttorpedo"
+		]
+	},
+	"priorityWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent", "envoy_bp"],
+		"weapons":[
+			"minipulser",
+			"shockrepeater",
+			"riftlance",
+			"riftbeam",
+			"cryoflux",
+			"cryoblaster",
+			"disintegrator",
+			"riftcascade",
+			"amsrm",
+			"resonatormrm",
+			"rifttorpedo"
+		]
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "independent", "envoy_bp"],
+		"hullMods":[
+			"advancedshieldemitter",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields",
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul"
+		]
+	},
+	"factionDoctrine":{
+		"warships":5,
+		"carriers":1,
+		"phaseShips":1,
+
+		"officerQuality":1,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":5,
+
+		"aggression":2,
+		
+		"combatFreighterProbability":0.5,
+		"combatFreighterUseFraction":0.5,
+		"combatFreighterCombatUseFraction":0.5,
+		"combatFreighterCombatUseFractionWhenPriority":1,
+		"combatFreighterCombatUseFractionWhenPriorityLarge":1,
+		"autofitRandomizeProbability":0.25,
+
+
+		"officerSkillsShuffleProbability":0.5,
+		"officerSkills":[
+			"ballistic_mastery",
+			"ordnance_expert",
+			"helmsmanship",
+			"combat_endurance",
+			"damage_control",
+			"target_analysis",
+			"gunnery_implants"
+		],
+
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"ballistic_mastery",
+			"crew_training",
+			"officer_training",
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"fighter_uplink",
+			"carrier_group",
+			"flux_regulation",
+			"damage_control",
+			"target_analysis",
+			"gunnery_implants",
+			"ordnance_expert",
+			"helmsmanship"
+		]
+	},
+	"illegalCommodities":["organs"],
+	"portraits":{
+		"standard_male":[
+            "graphics/portraits/portrait_merc01.png"
+			
+		],
+		"standard_female":[
+            "graphics/portraits/portrait_merc02.png"
+
+		]
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true,
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"usesAICores":true,
+		"AICoreValueMult":6,
+		"AICoreRepMult":6,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":true,
+		"caresAboutStability":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsPirates":true,
+			"vsRemnants":false,
+			"vsPather":true,
+			"vsFreePort":false,
+			"vsPlayer":false,
+			"canBombard":true,
+			"territorial":true,
+			"canInvade":true,
+			"canRaid":true
+
+		}
+	},
+	"fleetTypeNames":{
+		"trade":"Trade Convoy",
+		"tradeSmall":"Small Trade Convoy",
+		"tradeMedium":"Medium Trade Convoy",
+		"tradeLarge":"Large Trade Convoy",
+		"tradeLiner":"Trade Liner",
+		"tradeSmuggler":"Smuggler Convoy",
+		"smallTrader":"Ecommerce Fleet",
+		"smuggler":"Smuggler Fleet",
+		"patrolSmall":"Security Fleet",
+		"patrolMedium":"Surveillance Fleet",
+		"patrolLarge":"Military Fleet",
+		"inspectionFleet":"Inspection Fleet",
+		"raidSmall":"Raiding Fleet",
+		"raidMedium":"Raiding Fleet",
+		"taskForce":"Advisory Fleet",
+		"assaultFleet":"Assault Fleet",
+		"blockadeFleet":"Blockade Fleet",
+		"blockadeRunner":"Blockade Runner",
+		"strikeFleet":"Black-Ops Fleet",
+		"foodReliefFleet":"Wellness Convoy",
+		"refugeeConvoy":"Refugee Convoy",
+		"refugeeFleet":"Refugee Fleet",
+		"explorationFleet":"Exploration Fleet"
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"President"}
+
+		},
+		"posts":{
+			"factionLeader":{"name":"President"},
+			"stationCommander":{"name":"Station Commander"},
+			"stationAdministrator":{"name":"Station Administrator"},
+			"stationOfficer":{"name":"Station Officer"},
+			"guardLeader":{"name":"High Guard"},
+			"militaryAdministrator":{"name":"Commander-General"},
+			"militaryOfficer":{"name":"Commander"}
+		}
+	},
+	"music":{
+        "theme":"music_envoy_friendly",
+        "market_neutral":"music_envoy_neutral",
+		"market_hostile":"music_envoy_hostile",
+        "market_friendly":"music_envoy_friendly",
+        "encounter_neutral":"music_envoy_neutral",
+        "encounter_hostile":"music_envoy_hostile",
+        "encounter_friendly":"music_envoy_friendly"
+    }
+}	

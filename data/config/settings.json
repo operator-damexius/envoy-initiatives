@@ -1,0 +1,14 @@
+{
+	"designTypeColors":{
+		"envoy":[0,33,71,255]
+	},
+	
+	"misc": {
+	},
+	"graphics":{
+		"blueprint_packages":{
+			"envoy_ships": "graphics/factions/en_flag.png",
+			"envoy_armory": "graphics/factions/en_flag.png"
+		}
+	}
+}

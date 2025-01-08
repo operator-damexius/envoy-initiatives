@@ -1,0 +1,15 @@
+{
+    "id":"EnvoyDex",
+    "name":"Envoy Initiatives",
+    "author":"Damexius",
+    "version":{ "major": 1, "minor": 0, "patch": 0 },
+    "description":"The Envoy Initiatives refer to specialized designated individuals to tackle global challenges and foster international collaboration.",
+    "gameVersion":"0.97a-RC11",
+    "modPlugin":"data.scripts.EnvoyModPlugin",
+    "utility": false,
+    "dependencies": [
+        {"id": "lw_lazylib", "name": "LazyLib"},
+        {"id": "MagicLib", "name": "MagicLib"},
+        {"id": "nexerelin", "name": "Nexerelin"}
+    ]
+}

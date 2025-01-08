@@ -1,0 +1,18 @@
+id,type,text1,text2,text3,text4,notes
+,,,,,,
+en_rigidity,SHIP,The Rigidity-class is a fast and agile vessel designed for rapid naval engagements. With impressive maneuverability and a top speed.,,,,
+en_ease,SHIP,"The Ease-class is a durable and versatile naval vessel designed for a variety of combat scenarios. Known for its robust construction, it features a hull fortitude that allows it to withstand significant damage while maintaining operational effectiveness.",,,,
+en_resilient,SHIP,"The Resilient-class is an exceptional spaceship designed for transporting large volumes of cargo across the cosmos. Known for its robust construction, this freighter can withstand harsh conditions and potential threats in space, making it a reliable choice for long-distance voyages.",,,,
+en_resolute,SHIP,"The Resolute-class is a highly capable naval vessel designed for precision strikes and rapid engagements. Known for its impressive speed and maneuverability, this frigate is equipped with advanced missile systems, making it a formidable force in modern naval warfare.",,,,
+en_dedicate,SHIP,"The Dedicated-class is a compact yet powerful vessel designed for rapid naval operations. This frigate combines impressive speed with advanced weaponry, making it an effective choice for both offensive and defensive missions.",,,,
+en_mitigate,SHIP,"The Mitigate-class is a formidable naval vessel designed for sustained combat operations. While it may not be the fastest ship in its class, it compensates with a robust arsenal and exceptional durability, making it a powerful asset in any fleet.",,,,
+,,,,,,
+planet_nimoria,CUSTOM,"A planet characterized by tranquility and beauty, featuring lush environments and gentle landscapes.",,,,
+planet_amaris,CUSTOM,"The moon of Nimoria, meaning ""child of the moon,"" symbolizing a deep connection to Nimoria's tranquil nature.",,,,
+planet_vesperis,CUSTOM,"A planet that beautifully complements Vespera, known for its serene landscapes and stunning twilight skies.",,,,
+,,,,,,
+envoy,FACTION,"The Envoy Initiatives is an alliance formed to counter the domination of both the Hegemony and the Persean League within the Sector. Comprising member planets such as Nimoria and Vesperis, this coalition acknowledges that its members may not always see eye to eye on various issues, which can lead to internal conflicts. Nevertheless, they stand united in their opposition to the Hegemony, which they perceive as illegitimately enforcing martial law under the banner of the now-defunct Domain.
+
+Established in response to the escalating threats from both the Hegemony and the Persean League, the Envoy Initiatives aims to ensure that its member worlds retain their autonomy and can govern their internal affairs free from external interference.
+
+The Envoy Initiatives embodies a complex political landscape where solidarity against common adversaries coexists with significant internal discord and diverse governance structures among its members. Its formation signifies a crucial shift in the Sector's power dynamics, reflecting ongoing struggles for autonomy and legitimacy in a post-Domain era.",,,,

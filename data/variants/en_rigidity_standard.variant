@@ -1,0 +1,34 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "en_rigidity",
+    "hullMods": [
+        "escort_package",
+        "fluxcoil",
+        "fluxdistributor",
+        "fluxbreakers",
+        "solar_shielding",
+        "magazines"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "en_rigidity_standard",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0004": "autopulse"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "taclaser",
+                "WS0002": "taclaser",
+                "WS0003": "ionbeam"
+            }
+        }
+    ]
+}

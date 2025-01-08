@@ -1,0 +1,20 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Advanced Dex,advdex,1,1,Envoy,special,"Special, Weapons",,,TRUE,,0,0,0,0,data.hullmods.Advdex,"The Advanced Dex significantly enhances the effectiveness of weapon range systems on Envoy crafts, focusing on both range and point-defense capabilities.
+
+Weapon range - %s. 
+PD range -  %s.
+",Greatly extends the range.,,graphics/hullmods/advdex.png
+Doctrine Dex,nexdex,1,1,Envoy,,,,,TRUE,,0,0,0,0,data.hullmods.Nexdex,"This ship is a survivor of the original Doctrines that founded the Hegemony. It is a prime specimen of the Domain Navy's ""decisive battle"" doctrine, particularly exhibited through a series of radical structural modifications performed with pre-Collapse industrial methods. These modifications allow for the mounting of high polarized armor, resulting in no reduction in speed and maneuverability. Exceptionally well-tuned energy systems enhance flux throughput and capacity beyond that of standard examples of this hull.
+
+Armor plating - %s.
+Flux capacity - %s.
+Dissipation rate - %s.",,,graphics/hullmods/nexusdex.png
+Engine Dex,engdex,1,1,Envoy,special,"Special, Engines",,,TRUE,,0,0,0,0,data.hullmods.Engdex,"The Engine Dex upgrade increases the durability of the ship's engines. Additionally, it reduces the ship's sensor profile, enhancing its stealth capabilities. Furthermore, this hull modification significantly boosts the ship's maneuverability, allowing for quicker acceleration, sharper turns, and improved overall agility in combat situations.
+
+Engines durability - %s.
+Sensor profile - %s.
+Maneuverability %s.",Increases the durability of the ship's engines.,,graphics/hullmods/engdex.png
+Flux Dex,fluxdex,1,1,Envoy,special,"Special, Defenses",,,TRUE,,0,0,0,0,data.hullmods.Fluxdex,"The Flux Dex significantly reduces the amount of EMP damage taken from weapons such as Ion Cannons, providing enhanced resilience against electronic warfare. Additionally, it boosts the ship's flux dissipation rate while venting, allowing for more efficient energy management during intense combat situations. This combination of features not only improves survivability but also ensures that the ship can maintain peak performance and responsiveness when under fire.
+
+Resistant EMP - %s.
+Dissipation rate - %s.","Reduces EMP damage taken, improves venting speed.",,graphics/hullmods/fluxdex.png

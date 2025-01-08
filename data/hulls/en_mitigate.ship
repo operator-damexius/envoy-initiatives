@@ -1,0 +1,199 @@
+{
+  "hullName": "Mitigate",
+  "hullId": "en_mitigate",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/mitigate/en_mitigate.png",
+  "style": "HIGH_TECH",
+  "height": 150,
+  "width": 140,
+  "center": [70, 76],
+  "collisionRadius": 146,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 143.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "advdex",
+    "nexdex",
+    "fluxdex"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [17, -24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [17, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [34, -24]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [34, 24]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 70,
+      "angle": 0,
+      "locations": [53, -24]
+    },
+    {
+      "id": "WS0006",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 70,
+      "angle": 0,
+      "locations": [53, 24]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -45,
+      "locations": [-48, -21]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 45,
+      "locations": [-48, 21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-68.5, -15.5],
+      "length": 50,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, 15.5],
+      "length": 50,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, -20.5],
+      "length": 45,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, 20.5],
+      "length": 45,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, -25.5],
+      "length": 40,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, 25.5],
+      "length": 40,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, -10.5],
+      "length": 45,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, 10.5],
+      "length": 45,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, -5.5],
+      "length": 40,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-68.5, 5.5],
+      "length": 40,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -69.5, 28.5,
+    -65.5, 29.5,
+    -52.5, 41.5,
+    -23.5, 41.5,
+    -17.5, 47.5,
+    41.5, 47.5,
+    43.5, 45.5,
+    43.5, 40.5,
+    50.5, 40.5,
+    50.5, 7.5,
+    54.5, 3.5,
+    54.5, -3.5,
+    50.5, -7.5,
+    50.5, -40.5,
+    43.5, -40.5,
+    43.5, -45.5,
+    41.5, -47.5,
+    -17.5, -47.5,
+    -23.5, -41.5,
+    -52.5, -41.5,
+    -65.5, -29.5,
+    -69.5, -28.5
+  ]
+}

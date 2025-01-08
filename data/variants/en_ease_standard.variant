@@ -1,0 +1,43 @@
+{
+  "variantId": "en_ease_standard",
+  "hullId": "en_ease",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "adaptive_coils",
+    "eccm",
+    "auxiliarythrusters",
+    "autorepair",
+    "armoredweapons",
+    "hardened_subsystems",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gazer",
+        "WS0003": "gazer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "mjolnir"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

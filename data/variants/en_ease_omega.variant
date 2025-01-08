@@ -1,0 +1,32 @@
+{
+    "displayName": "Omega",
+    "fluxCapacitors": 5,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "en_ease",
+    "hullMods": [
+        "phase_anchor",
+        "fluxbreakers",
+        "hardened_subsystems",
+        "escort_package",
+        "auxiliarythrusters"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "en_ease_omega",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "realitydisruptor"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0002": "amsrm",
+                "WS0003": "amsrm"
+            }
+        }
+    ]
+}

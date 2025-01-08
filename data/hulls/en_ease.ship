@@ -1,0 +1,193 @@
+{
+  "hullName": "Ease",
+  "hullId": "en_ease",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/ease/en_ease.png",
+  "style": "HIGH_TECH",
+  "height": 120,
+  "width": 150,
+  "center": [75, 60.5],
+  "collisionRadius": 97.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 94,
+  "viewOffset": 0,
+  "builtInMods": [
+    "nexdex",
+    "advdex",
+    "missile_reload",
+    "fluxdex"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [23.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [2.5, -18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [-12.5, -18]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-57, -28.5],
+      "length": 30,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, 28.5],
+      "length": 30,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, -23.5],
+      "length": 40,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, 23.5],
+      "length": 40,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, -18.5],
+      "length": 45,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, 18.5],
+      "length": 45,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, -13.5],
+      "length": 40,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, 13.5],
+      "length": 40,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, -8.5],
+      "length": 30,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-57, 8.5],
+      "length": 30,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -5, 3.5,
+    -6, 6.5,
+    -9, 8.5,
+    -18, 8.5,
+    -21, 4.5,
+    -33, 4.5,
+    -38.5, 1.5,
+    -43, 3.5,
+    -51, 3.5,
+    -57, 6.5,
+    -57, 30.5,
+    -42, 45.5,
+    -29, 45.5,
+    -29, 58.5,
+    -28, 59.5,
+    -20, 59.5,
+    -19, 58.5,
+    -19, 45.5,
+    -11, 45.5,
+    -11, 58.5,
+    -10, 59.5,
+    -2, 59.5,
+    -1, 58.5,
+    -1, 45.5,
+    4, 45.5,
+    13, 36.5,
+    40, 36.5,
+    42, 34.5,
+    42, 29.5,
+    45, 26.5,
+    45, -26.5,
+    42, -29.5,
+    42, -34.5,
+    40, -36.5,
+    13, -36.5,
+    4, -45.5,
+    -1, -45.5,
+    -1, -58.5,
+    -2, -59.5,
+    -10, -59.5,
+    -11, -58.5,
+    -11, -45.5,
+    -19, -45.5,
+    -19, -58.5,
+    -20, -59.5,
+    -28, -59.5,
+    -29, -58.5,
+    -29, -45.5,
+    -42, -45.5,
+    -57, -30.5,
+    -57, -6.5,
+    -51, -3.5,
+    -43, -3.5,
+    -38.5, -1.5,
+    -33, -4.5,
+    -21, -4.5,
+    -18, -8.5,
+    -9, -8.5,
+    -6, -6.5,
+    -5, -3.5
+  ]
+}

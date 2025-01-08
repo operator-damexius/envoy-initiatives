@@ -1,0 +1,35 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 4,
+    "goalVariant": true,
+    "hullId": "en_dedicate",
+    "hullMods": [
+        "phase_anchor",
+        "insulatedengine",
+        "solar_shielding",
+        "fluxbreakers",
+        "hardened_subsystems"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "en_dedicate_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0001": "heavyblaster",
+                "WS0002": "heavyblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "taclaser",
+                "WS0004": "taclaser"
+            }
+        }
+    ]
+}

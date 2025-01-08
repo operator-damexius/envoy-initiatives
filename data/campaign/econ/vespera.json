@@ -1,0 +1,104 @@
+{
+	"starSystem": "vespera",
+	"markets": [
+		{
+			"entities": ["nimoria"],
+			"faction": "envoy",
+			"size": 6,
+			"startingConditions": [
+				"farmland_bountiful",
+				"organics_plentiful",
+				"volatiles_plentiful",
+				"ruins_vast",
+				"population_6",
+				"habitable",
+				"mild_climate"
+			],
+			"industries": [
+				"population",
+				"mining",
+				"heavybatteries",
+				"megaport",
+				"starfortress_high",
+				"highcommand",
+				"farming",
+				"waystation"
+			]
+		},
+		{
+			"entities": ["amaris"],
+			"faction": "envoy",
+			"size": 5,
+			"startingConditions": [
+				"ruins_vast",
+				"low_gravity",
+				"no_atmosphere",
+				"population_5",
+				"volatiles_plentiful",
+				"rare_ore_rich",
+				"ore_rich"
+			],
+			"industries": [
+				"population",
+				"mining",
+				"heavybatteries",
+				"highcommand",
+				"megaport",
+				"orbitalworks",
+				"waystation"
+			]
+		},
+		{
+			"entities": ["vesperis"],
+			"faction": "envoy",
+			"size": 7,
+			"startingConditions": [
+				"population_7",
+				"farmland_bountiful",
+				"organics_plentiful",
+				"volatiles_plentiful",
+				"rare_ore_ultrarich",
+				"ore_ultrarich",
+				"ruins_vast",
+				"habitable",
+				"mild_climate"
+			],
+			"industries": [
+				"population",
+				"mining",
+				"heavybatteries",
+				"highcommand",
+				"megaport",
+				"orbitalworks",
+				"starfortress_high",
+				"waystation",
+				"farming"
+			]
+		},
+		{
+			"entities": ["solara"],
+			"faction": "envoy",
+			"size": 6,
+			"startingConditions": [
+				"population_6",
+				"ruins_vast",
+				"low_gravity",
+				"no_atmosphere",
+				"rare_ore_ultrarich",
+				"ore_ultrarich",
+				"very_hot",
+				"outpost"
+			],
+			"industries": [
+				"population",
+				"mining",
+				"orbitalworks",
+				"heavybatteries",
+				"megaport",
+				"starfortress_high",
+				"highcommand",
+				"waystation"
+			]
+		}
+	]
+}

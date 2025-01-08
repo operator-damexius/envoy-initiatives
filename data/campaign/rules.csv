@@ -1,0 +1,45 @@
+id,trigger,conditions,script,text,options,notes
+,,,,,,
+greetingMIFriendly,OpenCommLink,"$faction.id == envoys
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","A smile breaks over the $personRank ""Signal received $playerName. You're talking to the $personRank here, what can I do for you?"" 
+OR
+With a relieved face the $personRank gives you a salute, ""Hey $playerName, strenght and honor!""
+",cutCommLink:Cut the comm link,
+greetingMIHostileWeaker,OpenCommLink,"$faction.id == envoys
+$entity.isHostile
+$entity.relativeStrength < 0",,"""Hello $playerName What do you require?"" The $personRank's face is stoic but, behind them you catch hints of a panicked crew.
+OR
+The $personRank swallows when they see your face, ""Hello, $playerName…"" there's a slight pause before they continue, ""We can be going, now."" the transmission is then terminated as they start to turn away from the fleet.
+",cutCommLink:Cut the comm link,
+greetingMIHostileWeakerDefiant,OpenCommLink,"$faction.id == envoys
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",,"The Envoys $personRank eyes you with a slight scowl before turning to send $hisOrHer crew to their stations.  The comm signal cuts out a moment later. 
+OR
+There's a curt tone in $hisOrHer voice as the $personRank addresses you, ""Hello $playerName. Please make note that we've records of this location and any incident that may occur. Good day."" Not giving you a chance to reply the transmission is cut.
+",cutCommLink:Cut the comm link,
+greetingMIHostileStronger,OpenCommLink,"$faction.id == envoys
+$entity.isHostile
+$entity.relativeStrength >= 0",,"""$playerName, poor ol' $playerName... I wonder if I'll get a promotion or be reprimanded for killing you. Guess I'll have to find out the hard way."" the transmission ends.
+",cutCommLink:Cut the comm link,
+greetingMINeutral,OpenCommLink,"$faction.id == envoys
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Hello, this is a envoys initiatives vessel captain; What do you need $playerName?""
+OR
+""Hello $playerName, I hope you're doing good."" The $personRank's tone is polite as they speak to you.
+",cutCommLink:Cut the comm link,
+greetingMITOffNormal,OpenCommLink,"!$player.transponderOn
+$faction.id == envoys
+$entity.relativeStrength >= 0",,"$personRank $personName looks aggravated. ""If you wanna talk, turn your transponder on.""
+OR
+$personName scowls, ""Come on, turn the transponder on. We know all this is under bylaws!""
+","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",
+greetingMITOffWeaker,OpenCommLink,"!$player.transponderOn
+$faction.id == envoys
+$entity.relativeStrength < 0",,"$personRank $personName looks concerned. ""If you wanna talk, turn your transponder on.""
+OR
+The $personRank is curt as they speak, ""Turn on your transponder if you wish to discuss anything further.""
+","turnOnTransponder:Turn your transponder on
+cutCommLink:Cut the comm link",

@@ -1,0 +1,118 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+	"noSyncRelations":"false",
+
+    "rebelFleetSuffix":"insurgents",
+
+	"colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+
+    "colonyExpeditionChance": 0.75,
+
+    "maxColonyDistance": 25,
+
+    "startRelationships":{ "tritachyon": 0.9, "remnant": 0.9, "persean":-0.3, "hegemony":-0.3, "luddic_church":-0.3, "luddic_path":-0.6  },
+    "maxRelationships":{ "persean":-0.3, "hegemony":-0.3, "luddic_church":-0.3, "luddic_path":-0.3 },
+    "minRelationships":{ "persean": 0.0, "hegemony": 0.0 },
+	"diplomacyPositiveChance":{ "tritachyon": 1.5, "persean": 0.1, "hegemony":0.1, "remnant": 1.5, "luddic_church":0.8, "luddic_path":0.8 },
+    "diplomacyNegativeChance":{ "tritachyon": 0.2, "persean": 1.2, "hegemony":1.2, "remnant": 0.2, "luddic_church":1.2, "luddic_path":1.2 },
+	
+	"morality":"good",
+    "moralityDescription":"The Envoys are a faction of diplomats and peacemakers, who seek to bring harmony to the sector. They are known for their advanced technology and their willingness to help others.", 
+
+    "moralityEffects":{
+        "good":{
+            "description":"The Envoys are a faction of diplomats and peacemakers, who seek to bring harmony to the sector. They are known for their advanced technology and their willingness to help others.",
+            "effect":"The Envoys are well-liked by most factions, and are able to maintain good relations with all but the most hostile. They are able to establish colonies and trade routes with ease, and are able to call on their allies for help when needed."
+        },
+        "neutral":{
+            "description":"The Envoys are a faction of diplomats and peacemakers, who seek to bring harmony to the sector. They are known for their advanced technology and their willingness to help others.",
+            "effect":"The Envoys are able to maintain good relations with most factions, but may struggle to establish colonies and trade routes in hostile territory. They are able to call on their allies for help when needed."
+        },
+        "evil":{
+            "description":"The Envoys are a faction of diplomats and peacemakers, who seek to bring harmony to the sector. They are known for their advanced technology and their willingness to help others.",
+            "effect":"The Envoys are disliked by most factions, and may struggle to maintain good relations with anyone. They may find it difficult to establish colonies and trade routes, and may have to rely on their own resources to survive."
+        }
+
+
+    },
+
+    "factionsLiked": [
+        "independent",
+        "pirates",
+        "tritachyon"
+      ],
+    
+    "factionsDisliked": [
+        "hegemony",
+        "persean"
+      ],
+
+    "alignments":{
+        "technocratic":0.5,
+        "hierarchical":0.0,
+        "militarist":1,
+        "diplomatic":0.5,
+        "ideological":0.0,
+        "corporate":1
+
+    },
+	"diplomacyTraits":["neutralist", "helps_allies", "likes_ai" ],
+	
+    "startShips":[
+        "en_resolute_standard"
+    ],
+	"startShipsCombatSmall":[
+        "en_dedicate_standard", 
+        "en_resilient_standard", 
+        "en_resilient_standard"
+    ],
+    "startShipsCombatLarge":[
+        "en_ease_standard", 
+        "en_resilient_standard", 
+        "en_resilient_standard"
+    ],
+    "startShipsCarrierLarge":[
+        "en_resolute_standard", 
+        "en_resilient_standard", 
+        "en_resilient_standard"
+    ],
+    "startShipsSuper":[
+        "en_dedicate_omega", 
+        "en_rigidity_omega", 
+        "en_ease_omega", 
+        "en_resilient_standard"
+    ],
+	"startShipsGrandFleet":[
+	[
+        "en_resolute_standard", 
+        "en_ease_standard", 
+        "en_dedicate_standard", 
+        "en_resilient_standard", 
+        "en_rigidity_standard"
+    ]
+	],
+	
+    "startSpecialItems":[
+        [["envoy_ships","omega"]]
+    ],
+	
+    "defenceStations":[
+        {"ids":["orbitalstation", "battlestation", "starfortress"]},
+        {"ids":["orbitalstation_mid", "battlestation_mid", "starfortress_mid"], "weight":0.5}
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"fuelprod", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1}
+    ],
+    
+    "bonusSeeds":[
+        {"id":"nanoforge_pristine", "count":1},
+        {"id":"aiCore_station", "count":2, "mult":0.4},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_heavyindustry", "count":2},
+        {"id":"aiCore_any", "mult":1.5}
+    ]
+}

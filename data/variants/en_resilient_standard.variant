@@ -1,0 +1,29 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 16,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "en_resilient",
+    "hullMods": [
+        "efficiency_overhaul",
+        "surveying_equipment"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "en_resilient_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "ionbeam"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "swarmer",
+                "WS0002": "swarmer"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "knownShips": {
+        "tags": [],
+        "hulls": []
+    },
+    "knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "missile_bp", "hightech_bp", "independent", "envoy_bp", "omega"],
+		"weapons":[]
+	},
+    "portraits": {
+        "standard_male": [
+            "graphics/portraits/portrait_merc01.png",
+            "graphics/portraits/portrait_merc03.png"
+        ],
+        "standard_female": [
+            "graphics/portraits/portrait_merc02.png"
+
+        ]
+    },
+    "flags": [
+        {
+			"logo":"graphics/factions/en_neutral.png",
+			"crest":"graphics/factions/en_crest_neutral.png"
+		}
+    ]
+}

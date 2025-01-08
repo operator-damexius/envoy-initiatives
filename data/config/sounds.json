@@ -1,0 +1,14 @@
+{
+  "music":{
+				
+		"music_envoy_neutral":[
+			{"file":"en_music_envoy_neutral.ogg","source":"sounds/music/","volume":0.50,"randomStart":false}
+		],
+		"music_envoy_hostile":[
+			{"file":"en_music_envoy_hostile.ogg","source":"sounds/music/","volume":0.50,"randomStart":false}
+		],
+		"music_envoy_friendly":[
+			{"file":"en_music_envoy_friendly.ogg","source":"sounds/music/","volume":0.50,"randomStart":false}
+		],
+  },
+}
